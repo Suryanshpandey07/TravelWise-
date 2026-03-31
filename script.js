@@ -1,5 +1,4 @@
-// Add your OpenWeather API key here
-const OPENWEATHER_API_KEY = "YOUR_OPENWEATHER_API_KEY";
+const OPENWEATHER_API_KEY = "abc123xyzYOURKEY";
 
 const COUNTRY_API = "https://restcountries.com/v3.1/all?fields=name,capital,region,population,flags,cca3";
 const WEATHER_API = "https://api.openweathermap.org/data/2.5/weather";
