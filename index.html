@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TravelWise</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>TravelWise</h1>
+  <p>Find countries and check weather in their capital city.</p>
+
+  <div class="controls">
+    <input id="searchInput" type="text" placeholder="Search country name">
+
+    <select id="regionFilter">
+      <option value="all">All Regions</option>
+      <option value="africa">Africa</option>
+      <option value="americas">Americas</option>
+      <option value="asia">Asia</option>
+      <option value="europe">Europe</option>
+      <option value="oceania">Oceania</option>
+    </select>
+
+    <select id="sortBy">
+      <option value="name-asc">Name A-Z</option>
+      <option value="name-desc">Name Z-A</option>
+      <option value="population-desc">Population High-Low</option>
+      <option value="population-asc">Population Low-High</option>
+    </select>
+
+    <button id="showFavoritesBtn">Show Favorites</button>
+  </div>
+
+  <p id="status">Loading countries...</p>
+
+  <div id="countryGrid" class="country-grid"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
